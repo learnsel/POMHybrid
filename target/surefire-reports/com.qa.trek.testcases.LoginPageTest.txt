@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: com.qa.trek.testcases.LoginPageTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 27.632 s <<< FAILURE! - in com.qa.trek.testcases.LoginPageTest
+loginTest(com.qa.trek.testcases.LoginPageTest)  Time elapsed: 22.439 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type='submit']"}
+  (Session info: chrome=84.0.4147.135)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'INDMLASINGH', ip: 'fe80:0:0:0:8fd:3d02:d8fb:ba92%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.4', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/vd/7thkk6pj2kz...}, goog:chromeOptions: {debuggerAddress: localhost:57259}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 92ea8d90693adfd663d6c550a055c535
+*** Element info: {Using=xpath, value=//input[@type='submit']}
+	at com.qa.trek.testcases.LoginPageTest.loginTest(LoginPageTest.java:38)
+
